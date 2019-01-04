@@ -1,0 +1,50 @@
+@import url("//fonts.googleapis.com/css?family=Lobster|Cabin:400,700");
+
+body {
+  background-image: url("background.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  
+}
+h1 {
+  font-family: 'Lobster', cursive;
+  font-weight: 500;
+  line-height: 1.1;
+  color: black;
+}
+
+p {
+  display: table;
+  margin: auto;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, .7);
+  color: black;
+}
+
+.myContent{
+  background-color: rgba(255, 255, 255, .7);
+  padding: 20px;
+  margin: auto;
+}
+
+.navbar{
+  background-color: black;
+}
+
+.navbar-default .navbar-brand{
+  color: #e8e058;
+  pointer-events:none;
+}
+
+.navbar-default .navbar-nav>li>a{
+  color: #e8e058;
+}
+
+.navbar-default .navbar-nav>li.active>a{
+  color: black;
+}
+
+.navbar-default .navbar-nav>li:hover>a{
+  color: white;
+}
